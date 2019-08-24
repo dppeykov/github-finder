@@ -1,8 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 
-function App() {
-  return <div className="App">Helloo</div>;
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <i className="fab fa-github"></i>
+      </div>
+    );
+  }
 }
 
 export default App;
