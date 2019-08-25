@@ -4,6 +4,8 @@ import Users from "./components/users/Users";
 import "./App.css";
 
 class App extends Component {
+  componentDidMount() {}
+
   render() {
     return (
       <div>
